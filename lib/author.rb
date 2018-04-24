@@ -5,6 +5,6 @@ class Author
     @name = name
   end
   def posts
-    self.posts.size
+    @posts.size
   end
 end
