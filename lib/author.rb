@@ -1,10 +1,10 @@
 class Author
-  attr_accessor :name, :posts
+  attr_accessor :name, :post_objects
   def initialize(name)
-    @posts = []
+    @post_objects = []
     @name = name
   end
   def posts
-    @posts.size
+    self.post_objects.size
   end
 end
