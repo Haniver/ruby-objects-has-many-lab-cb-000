@@ -4,6 +4,6 @@ class Post
     @title = post_title
   end
   def author_name
-    self.author
+    self.author.name
   end
 end
