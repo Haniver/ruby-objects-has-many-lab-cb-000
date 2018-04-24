@@ -4,4 +4,8 @@ class Author
     @posts = []
     @name = name
   end
+  def add_post(post)
+    self.posts << post
+    post.author = self
+  end
 end
